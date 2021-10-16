@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Dropdown component
+- On hovering of the button, show the drop down items.
+- The dropdown component should receive the items array to display the items in the list.
+- On click of an option in dropdown list, close the dropdown.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![gif-dropdown](https://user-images.githubusercontent.com/87763516/137581664-a0ed3e6b-d4ac-4ac1-8042-51441205902a.gif)
+
 
 ## Available Scripts
 
