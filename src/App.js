@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Dropdown from './Dropdown';
 
 function App() {
+  const listItems = ['Yes', 'Probably Not!'];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "90vh", background: "linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%)" }}>
+      {/* Contents of list sent through props */}
+      <Dropdown listItems={listItems} />
     </div>
   );
 }
